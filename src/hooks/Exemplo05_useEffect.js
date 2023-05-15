@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Exemplo05_useState() {
+export default function Exemplo05_useEffect() {
   const [texto, setTexto] = useState("Hello world :");
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function Exemplo06_useState() {
+export default function Exemplo06_useEffect() {
   const [textos, setTextos] = useState([]);
   const [carregando, setCarregando] = useState("Carregando....");
 
