@@ -22,7 +22,7 @@ export default function Exemplo06_useState() {
       <h1>{carregando}</h1>
       <ul>
         {textos.map((texto, index) => (
-          <li key={index}>{index + 1 + "-" + texto.title}</li>
+          <li key={index}>{texto.title}</li>
         ))}
       </ul>
     </div>
