@@ -6,14 +6,15 @@ import "./App.css";
 //import Exemplo05 from "./hooks/Exemplo05_useEffect";
 //import Exemplo06 from "./hooks/Exemplo06_useEffect";
 //import Exemplo07 from "./hooks/Exemplo07_useContext";
-import Exemplo08 from "./hooks/Exemplo08_useRef";
+//import Exemplo08 from "./hooks/Exemplo08_useRef";
+import Exemplo09 from "./hooks/Exemplo09_useReducer";
 import { AppContext } from "./hooks/Context";
 
 function App() {
   return (
     <>
       <AppContext>
-        <Exemplo08 />
+        <Exemplo09 />
       </AppContext>
     </>
   );
