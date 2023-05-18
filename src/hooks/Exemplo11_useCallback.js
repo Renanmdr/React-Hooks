@@ -32,7 +32,7 @@ function ListaNumeros({ lista }) {
 
   useEffect(() => {
     setArr(lista);
-    console.log("useEffect");
+    console.log(" hook useEffect");
   }, [lista]);
 
   return (
